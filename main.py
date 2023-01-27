@@ -3,7 +3,7 @@ from random import randint
 # list of playing options 
 playingOptions = ["Rock", "Paper", "Scissors"]
 
-# get a random playing option from the lsist, assign it to the pc
+# get a random playing option from the list, assign it to the pc
 pc = playingOptions[randint(0,2)]
 
 player = False 
